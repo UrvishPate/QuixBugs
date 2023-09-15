@@ -28,7 +28,7 @@ jobs:
         run : |
           npm i -g kodezi-cli
           kodezi
-          kodezi --cloud -l "java"  -f "documentation,debugging" -file ./java_programs  --email "marcusdias@yopmail.com" --token "kdz_rkLjquAquXvqolwSvJXWbd"  --out ./kodezimode
+          kodezi --cloud -l "java"  -f "documentation,debugging" -file ./java_testcases  --email "marcusdias@yopmail.com" --token "kdz_rkLjquAquXvqolwSvJXWbd"  --out ./kodezimode
 
       - name: Git configuration
         run: |
